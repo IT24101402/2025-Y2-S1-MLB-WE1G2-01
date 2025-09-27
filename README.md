@@ -68,7 +68,7 @@ Follow these steps to set up and run the project locally:
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/tea-disease-detection.git
+git clone git@github.com:IT24101402/2025-Y2-S1-MLB-WE1G2-01.git
 
 cd tea-disease-detection
 
