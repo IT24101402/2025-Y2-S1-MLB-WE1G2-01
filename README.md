@@ -80,44 +80,11 @@ The dataset undergoes the following preprocessing:
 
 ---
 
-🏃 How to Run the Code
+## 🏃 How to Run the Code
 
-Follow these steps to set up and run the project locally on your machine:
+Follow these steps to run the project locally:
 
-🔁 1. Clone the Repository
+### 1️⃣ Clone the Repository
+```bash
 git clone git@github.com:IT24101402/2025-Y2-S1-MLB-WE1G2-01.git
 cd tea-disease-detection
-
-🧠 2. Open the Project in an IDE
-
-Open PyCharm, VS Code, or JupyterLab.
-
-Load the cloned project folder.
-
-Make sure your Python interpreter is set up with Jupyter Notebook support.
-
-📦 3. Install Required Libraries
-
-Install all necessary Python packages using:
-
-pip install -r requirements.txt
-
-📂 4. Explore Preprocessing Notebooks
-
-Each preprocessing technique is implemented in a separate Jupyter Notebook:
-
-Notebook File Name	Description
-01_handle_corrupted_data.ipynb	Removes unreadable or broken images
-02_image_resizing.ipynb	Resizes all images to 224x224
-03_image_normalisation.ipynb	Normalizes pixel values
-04_colour_conversion.ipynb	Converts images to RGB format
-05_class_balancing.ipynb	Handles class imbalance
-06_data_split_and_augmentation.ipynb	Splits dataset & applies augmentations
-
-👉 Open and run these notebooks in order to understand and execute each step of preprocessing.
-
-🧪 5. Run the Complete Preprocessing Pipeline
-
-To apply all preprocessing steps in the correct order, run the combined pipeline notebook:
-
-group_pipeline.ipynb
